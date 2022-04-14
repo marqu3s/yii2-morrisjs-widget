@@ -1,12 +1,12 @@
 <?php
 
 /**
- * @link https://github.com/juratitov/yii2-morrisjs-widget
+ * @link https://github.com/marqu3s/yii2-morrisjs-widget
  * @copyright Copyright (c) 2015 Jura
  * @license http://opensource.org/licenses/BSD-3-Clause
  */
 
-namespace juratitov\morrisjs;
+namespace marqu3s\morrisjs;
 
 use yii\base\InvalidConfigException;
 use yii\base\Widget;
@@ -14,13 +14,10 @@ use yii\helpers\Html;
 use yii\helpers\Json;
 
 /**
- *
  * Chart renders a Morris.JS plugin widget.
- *
  */
 class Chart extends Widget
 {
-
     /**
      * @var array the options for Morris.JS charts.
      */
@@ -128,5 +125,4 @@ class Chart extends Widget
             }
         }
     }
-
 }
