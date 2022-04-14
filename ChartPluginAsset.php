@@ -16,7 +16,6 @@ use yii\web\AssetBundle;
  */
 class ChartPluginAsset extends AssetBundle
 {
-
     public $sourcePath = '@vendor/marqu3s/yii2-morrisjs-widget/assets';
 
     public $depends = [
@@ -28,5 +27,4 @@ class ChartPluginAsset extends AssetBundle
         $this->js = YII_DEBUG ? ['js/raphael.min.js', 'js/morris.js'] : ['js/raphael.min.js', 'js/morris.min.js'];
         $this->css = ['css/morris.css'];
     }
-
 }
