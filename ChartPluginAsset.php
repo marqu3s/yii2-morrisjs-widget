@@ -1,12 +1,12 @@
 <?php
 
 /**
- * @link https://github.com/juratitov/yii2-morrisjs-widget
+ * @link https://github.com/marqu3s/yii2-morrisjs-widget
  * @copyright Copyright (c) 2015
  * @license http://opensource.org/licenses/BSD-3-Clause
  */
 
-namespace juratitov\morrisjs;
+namespace marqu3s\morrisjs;
 
 use yii\web\AssetBundle;
 
@@ -17,7 +17,7 @@ use yii\web\AssetBundle;
 class ChartPluginAsset extends AssetBundle
 {
 
-    public $sourcePath = '@vendor/juratitov/yii2-morrisjs-widget/assets';
+    public $sourcePath = '@vendor/marqu3s/yii2-morrisjs-widget/assets';
 
     public $depends = [
         'yii\web\YiiAsset',
